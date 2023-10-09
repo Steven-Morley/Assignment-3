@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="steve"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-08 07:19:56 pm"/>
+        <attribute name="created" value="c3RldmU7U1RFVkVOTEFQVE9QOzIwMjMtMTAtMDg7MDc6MDg6NTggcG07MjgzNg=="/>
+        <attribute name="edited" value="c3RldmU7U1RFVkVOTEFQVE9QOzIwMjMtMTAtMDg7MDc6MTk6NTYgcG07MTsyOTQ0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="lastname" type="String" array="False" size=""/>
+            <declare name="amountpaid" type="Real" array="False" size=""/>
+            <declare name="finalpay" type="Real" array="False" size=""/>
+            <input variable="lastname"/>
+            <input variable="amountpaid"/>
+            <assign variable="finalpay" expression="amountpaid/3"/>
+            <output expression="&quot;For the employee:  &quot; &amp;lastname" newline="True"/>
+            <output expression="&quot;Your earnings will be $  &quot; &amp;finalpay" newline="True"/>
+            <output expression="&quot;Your friend will also recieve $  &quot; &amp;finalpay" newline="True"/>
+            <output expression="&quot;And your second friend will recieve $  &quot; &amp;finalpay" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
